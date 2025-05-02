@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/concrnt/concrnt/core"
+	"github.com/concrnt/concrnt/x/jwt"
 	"github.com/google/uuid"
 	"github.com/spf13/cobra"
-	"github.com/totegamma/concurrent/core"
-	"github.com/totegamma/concurrent/x/jwt"
 )
 
 var inviteCmd = &cobra.Command{

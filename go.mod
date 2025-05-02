@@ -1,16 +1,16 @@
 module github.com/concrnt/conctl
 
-go 1.22.5
+go 1.24.2
 
 require (
 	github.com/SherClockHolmes/webpush-go v1.3.0
+	github.com/concrnt/concrnt v1.7.4
 	github.com/cosmos/cosmos-sdk v0.50.7
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/go-yaml/yaml v2.1.0+incompatible
 	github.com/google/uuid v1.6.0
 	github.com/redis/go-redis/v9 v9.6.1
 	github.com/spf13/cobra v1.8.1
-	github.com/totegamma/concurrent v1.4.0-beta11
 	gorm.io/driver/postgres v1.5.9
 	gorm.io/gorm v1.25.12
 )

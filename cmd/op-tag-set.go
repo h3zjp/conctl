@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/concrnt/concrnt/core"
 	"github.com/spf13/cobra"
-	"github.com/totegamma/concurrent/core"
 )
 
 var setCmd = &cobra.Command{
